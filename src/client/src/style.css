@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Athiti');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Athiti', sans-serif;
+    font : bold;
+  }
+  
+html, body {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    background-color: #f1f1f1 !important;
+}
+  
+.center {
+    display: flex;
+    justify-content: center;
+}
+  
+.hide {
+    display: none;
+}
+
+/*------------------------------------------------header-------------------------------------------*/
+
+
+/*------------------------menu------------------------------------*/
+
+.menu {
+  background-color: #9A0000;
+  box-shadow: 0px 2px 24px 0px rgba(0, 0, 0, 0.15);
+  width: 1920px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 0 40px;
+  position: relative;
+}
+  
+.menu__right {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+  
+.menu__list {
+  list-style-type: none;
+  padding: 0;
+  height: 100%;
+  margin: 0;
+  margin-right: 40px;
+}
+  
+.menu__list-item {
+  display: inline-block;
+  height: 100%;
+  margin-right: 20px;
+}
+  
+.menu__list-item:last-child {
+  margin-right: 0;
+}
+  
+.menu__link {
+  color: white;
+  display: inline-block;
+  height: 100%;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  padding: 0 3px;
+  margin-right: 30px;
+}
+  
+.menu__link:hover {
+  color: #ffaa3b;
+}
+.search__img{
+  margin-top: 7px;
+  height: 30px;
+  width: 30px;
+  margin-right: 30px;
+} 
+  
+.menu__link--active {
+  color: #ffaa3b;
+  border-bottom: 4px solid #ffaa3b;
+  font-weight: 700;
+}  
+  
+.menu__logo {
+  /* text-indent: -9999999px; */
+  font-size: 40px;
+  color: #ffaa3b;
+  display: inline-block;
+  height: 100%;
+  width: 250px;
+  background-size: 180px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 1px;
+  margin-right: 30px;
+}
+
+.menu__search-button {
+  height: 35px;
+  width: 42px;
+  border: 1px solid white;
+  border-radius: 0px;
+  background-color: #9A0000;
+  outline: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  padding: 0 40px;
+  background-position: center;
+  margin-top: 3px;
+  margin-right: 50px;
+}
+
+.menu__search-form {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  padding: 10px;
+  background-color: white;
+}
+
+.menu__search-input {
+  height: 35px;
+  width: 300px;
+  outline: none;
+  border: 1px solid #c8c9ce;
+  font-size: 16px;
+  padding: 5px;
+  font-weight: 300;
+}  
+  
+  

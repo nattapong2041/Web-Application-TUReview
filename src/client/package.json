@@ -1,0 +1,35 @@
+{
+  "name": "react-landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "material-ui": "^0.20.2",
+    "normalize.css": "^8.0.1",
+    "react": "^16.2.0",
+    "react-animated-slider": "^1.1.4",
+    "react-dom": "^16.2.0",
+    "react-form": "^3.5.7",
+    "react-images-upload": "^1.2.6",
+    "react-redux": "^5.0.6",
+    "react-scripts": "1.0.17",
+    "react-scroll": "^1.7.11",
+    "react-scroll-up-button": "^1.6.4",
+    "react-simple-image-slider": "^1.0.2",
+    "react-widgets": "^4.4.11",
+    "redux": "^3.7.2",
+    "redux-form": "^8.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "sane-email-validation": "^2.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.87.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:4000/"
+}

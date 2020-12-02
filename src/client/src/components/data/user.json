@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5ced0e8a99c11d17a889a1ce"},"auth":{"token":"$2b$10$4yUtjew76uly/fnnU/jQP.","used":false,"expires":{"$date":{"$numberLong":"1559126026871"}}},"firstName":"Ice","lastName":"Rakpongnat","email":"iceza_babin@hotmail.com","password":"$2b$10$4yUtjew76uly/fnnU/jQP.LVRuhwxkf7CbegwFqmES33ubK5me0fe","__v":{"$numberInt":"0"}}
